@@ -4,12 +4,17 @@ const { getUUID, getAge } = require('./plugins');
 // require('./js-foundation/02-destructuring');
 // const { getUserById } = require('./js-foundation/03-callbacks');
 // require('./js-foundation/04-arrow-functions');
-const { makeBuildPerson } = require('./js-foundation/05-factory');
+// const { makeBuildPerson } = require('./js-foundation/05-factory');
+const { getPokemonById } = require('./js-foundation/06-promises');
 
-const buildPerson = makeBuildPerson({ getUUID, getAge });
+getPokemonById(1)
+  .then( ( pokemon ) => console.log({ pokemon }) )
 
-const obj = { name: 'John', birthdate: '1985-10-21' };
+// ! Factory fn | dependency injection
+// const buildPerson = makeBuildPerson({ getUUID, getAge });
 
-const john = buildPerson( obj );
+// const obj = { name: 'John', birthdate: '1985-10-21' };
 
-console.log( john );
+// const john = buildPerson( obj );
+
+// console.log( john );

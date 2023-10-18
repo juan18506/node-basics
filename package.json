@@ -5,9 +5,12 @@
   "main": "app.js",
   "scripts": {
     "start": "node src/app.js",
-    "start:dev": "echo 'Hello World from dev'",
+    "dev": "nodemon src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Juan Alves Pedreira",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
 }

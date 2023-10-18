@@ -7,7 +7,7 @@ const { getUUID, getAge } = require('./plugins');
 // const { makeBuildPerson } = require('./js-foundation/05-factory');
 const { getPokemonById } = require('./js-foundation/06-promises');
 
-getPokemonById(-1)
+getPokemonById(4)
   .then( ( pokemon ) => console.log({ pokemon }) )
   .catch( ( error ) => console.error( error ) );
 

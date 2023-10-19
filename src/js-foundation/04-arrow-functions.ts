@@ -1,3 +1,7 @@
+interface User {
+  id: number;
+  name: string;
+}
 
 const users = [
   {
@@ -10,7 +14,7 @@ const users = [
   },
 ];
 
-const getUserById = ( id, callback ) => {
+export const getUserById = ( id: number, callback: (err?: string, user?: User) => void ) => {
 
   const user = users.find(( user ) => user.id === id );
 
@@ -18,9 +22,5 @@ const getUserById = ( id, callback ) => {
     return callback(`User not found with id ${ id }`);
   }
   
-  return callback( null, user );
-}
-
-module.exports = {
-  getUserById,
+  return callback( undefined, user );
 }

@@ -1,2 +1,10 @@
-{"level":"info","message":"Hola mundo","service":"app.js"}
-{"level":"info","message":"Hola mundo","service":"app.js"}
+{"level":"info","message":"Hello world","service":"app.js"}
+{"level":"error","message":"error division by 0","service":"app.js"}
+{"level":"info","message":"Hello world","service":"app.js"}
+{"at":{"config":{"cli":{"colors":{"data":"grey","debug":"blue","error":"red","help":"cyan","info":"green","input":"grey","prompt":"grey","silly":"magenta","verbose":"cyan","warn":"yellow"},"levels":{"data":3,"debug":5,"error":0,"help":2,"info":4,"input":8,"prompt":6,"silly":9,"verbose":7,"warn":1}},"npm":{"colors":{"debug":"blue","error":"red","http":"green","info":"green","silly":"magenta","verbose":"cyan","warn":"yellow"},"levels":{"debug":5,"error":0,"http":3,"info":2,"silly":6,"verbose":4,"warn":1}},"syslog":{"colors":{"alert":"yellow","crit":"red","debug":"blue","emerg":"red","error":"red","info":"green","notice":"yellow","warning":"red"},"levels":{"alert":1,"crit":2,"debug":7,"emerg":0,"error":3,"info":6,"notice":5,"warning":4}}},"loggers":{"loggers":{},"options":{}},"transports":{},"version":"3.11.0"},"level":"error","message":"error division by 0","service":"app.js"}
+{"level":"info","message":"Hello world","service":"app.js","timestamp":"2023-10-19T00:10:08.837Z"}
+{"level":"error","message":"error division by 0","service":"app.js","timestamp":"2023-10-19T00:10:08.839Z"}
+{"level":"info","message":"Hello world","service":"app.js","timestamp":"2023-10-19T00:10:22.102Z"}
+{"level":"error","message":"error division by 0","service":"app.js","timestamp":"2023-10-19T00:10:22.104Z"}
+{"level":"info","message":"Hello world","service":"app.js","timestamp":"2023-10-19T00:10:55.459Z"}
+{"level":"error","message":"error division by 0","service":"app.js","timestamp":"2023-10-19T00:10:55.461Z"}

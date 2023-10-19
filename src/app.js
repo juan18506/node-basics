@@ -13,7 +13,9 @@ const { buildLogger } = require('./plugins');
 //   .catch( ( error ) => console.error( error ) );
 
 const logger = buildLogger('app.js');
-logger.log('Hola mundo');
+
+logger.log('Hello world');
+logger.error('division by 0');
 
 // ! Factory fn | dependency injection
 // const buildPerson = makeBuildPerson({ getUUID, getAge });

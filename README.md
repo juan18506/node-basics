@@ -1,4 +1,4 @@
-# 02 Node Basics
+# Node Basics
 
 Run dev mode 
 ```

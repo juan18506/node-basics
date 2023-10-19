@@ -5,11 +5,15 @@ const { getUUID, getAge } = require('./plugins');
 // const { getUserById } = require('./js-foundation/03-callbacks');
 // require('./js-foundation/04-arrow-functions');
 // const { makeBuildPerson } = require('./js-foundation/05-factory');
-const { getPokemonById } = require('./js-foundation/06-promises');
+// const { getPokemonById } = require('./js-foundation/06-promises');
+const { buildLogger } = require('./plugins');
 
-getPokemonById(4)
-  .then( ( pokemon ) => console.log({ pokemon }) )
-  .catch( ( error ) => console.error( error ) );
+// getPokemonById(4)
+//   .then( ( pokemon ) => console.log({ pokemon }) )
+//   .catch( ( error ) => console.error( error ) );
+
+const logger = buildLogger('app.js');
+logger.log('Hola mundo');
 
 // ! Factory fn | dependency injection
 // const buildPerson = makeBuildPerson({ getUUID, getAge });

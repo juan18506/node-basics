@@ -6,7 +6,7 @@ interface User {
 const users = [
   {
     id: 1,
-    name: 'Jhon Doe',
+    name: 'John Doe',
   },
   {
     id: 2,

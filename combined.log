@@ -9,3 +9,5 @@
 {"level":"info","message":"Hello world","service":"app.js","timestamp":"2023-10-19T00:10:55.459Z"}
 {"level":"error","message":"error division by 0","service":"app.js","timestamp":"2023-10-19T00:10:55.461Z"}
 {"level":"info","message":"test message","service":"test service","timestamp":"2023-10-20T01:48:44.673Z"}
+{"level":"info","message":"test message","service":"test service","timestamp":"2023-10-20T02:04:25.506Z"}
+{"level":"info","message":"test message","service":"test service","timestamp":"2023-10-20T02:04:51.006Z"}

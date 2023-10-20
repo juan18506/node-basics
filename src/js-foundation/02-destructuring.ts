@@ -5,6 +5,6 @@ const { SHELL, HOME, LANGUAGE } = process.env;
 
 // console.table({ SHELL, HOME, LANGUAGE });
 
-const characters: string[] = ['Flash', 'Superman', 'Green Lantern', 'Batman'];
+export const characters: string[] = ['Flash', 'Superman', 'Green Lantern', 'Batman'];
 
 const [ , , , batman ] = characters;
